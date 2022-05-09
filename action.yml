@@ -1,0 +1,8 @@
+name: Read pom.xml
+description: Extracts pom.xml version, artifactId and groupId attributes
+branding:
+  color: blue
+  icon: unlock
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
